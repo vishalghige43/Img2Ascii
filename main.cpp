@@ -6,21 +6,7 @@
 using namespace std;
 using namespace cv;
 
-int calculateAvg(Mat img,int row,int col,int scale){
-    int sum=0;
-    int pixelCnt=0;
-    int r=row,c=col;
-
-    while(r<row+scale&& r<img.rows){
-        while(c<col+scale&& c<img.cols){
-            sum+=(int)img.at<uchar>(r,c);
-            pixelCnt++;
-            c++;
-        }
-        r++;
-    }
-    return sum/pixelCnt;
-}
+int calculateAvg(Mat img,int row,int col,int scale);
     
 int main(int argc,char **argv){
     if(argc!=2){
@@ -51,5 +37,21 @@ int main(int argc,char **argv){
     }
     cout<<output<<endl;
     
-    return 0;
+    return EXIT_SUCCESS;
+}
+
+int calculateAvg(Mat img,int row,int col,int scale){
+    int sum=0;
+    int pixelCnt=0;
+    int r=row,c=col;
+
+    while(r<row+scale&& r<img.rows){
+        while(c<col+scale&& c<img.cols){
+            sum+=(int)img.at<uchar>(r,c);
+            pixelCnt++;
+            c++;
+        }
+        r++;
+    }
+    return sum/pixelCnt;
 }

@@ -44,5 +44,5 @@ This project requires the following dependencies:
 - OpenCV
 
 ```bash
-Make sure to replace `assets/pt3.jpeg` with the path to the input image if you're copying the README to your project.
+Make sure to replace `assets/pt3.jpeg` with the path to your input image.
 ```
