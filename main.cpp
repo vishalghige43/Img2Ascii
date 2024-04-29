@@ -23,7 +23,7 @@ int calculateAvg(Mat img,int row,int col,int scale){
 }
     
 int main(){
-    Mat img=imread("/Users/vishalghige/Desktop/#C0DE/ASCII_Img/assets/pt4.png");
+    Mat img=imread("/Users/vishalghige/Desktop/#C0DE/ASCII_Img/assets/pt6.jpeg");
     string ascii_level_70="$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
     string ascii_level_10="@%#*+=-:. ";
 
@@ -32,7 +32,7 @@ int main(){
 
     cvtColor(img,img,COLOR_BGR2GRAY);
 
-    int scale=8;
+    int scale=2;
 
     for(int i=0;i<img.rows;i+=scale){
         string text="";
