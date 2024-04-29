@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "output",
+					"name" : "image2ascii",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "output::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-output-Debug-8216f7f591c81b4f172f.json",
-					"name" : "output",
+					"id" : "image2ascii::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image2ascii-Debug-93ffd1972e34c99ca71b.json",
+					"name" : "image2ascii",
 					"projectIndex" : 0
 				}
 			]

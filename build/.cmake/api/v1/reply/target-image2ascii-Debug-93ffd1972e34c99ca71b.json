@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "output"
+			"path" : "image2ascii"
 		}
 	],
 	"backtrace" : 1,
@@ -68,7 +68,7 @@
 			]
 		}
 	],
-	"id" : "output::@6890427a1f51a3e7e1df",
+	"id" : "image2ascii::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -363,8 +363,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "output",
-	"nameOnDisk" : "output",
+	"name" : "image2ascii",
+	"nameOnDisk" : "image2ascii",
 	"paths" : 
 	{
 		"build" : ".",

@@ -1,4 +1,4 @@
-CMakeFiles/output.dir/main.cpp.o: \
+CMakeFiles/image2ascii.dir/main.cpp.o: \
   /Users/vishalghige/Desktop/\#C0DE/ASCII_Img/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \

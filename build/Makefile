@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named output
+# Target rules for targets named image2ascii
 
 # Build rule for target.
-output: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output
-.PHONY : output
+image2ascii: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image2ascii
+.PHONY : image2ascii
 
 # fast build rule for target.
-output/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/build
-.PHONY : output/fast
+image2ascii/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image2ascii.dir/build.make CMakeFiles/image2ascii.dir/build
+.PHONY : image2ascii/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image2ascii.dir/build.make CMakeFiles/image2ascii.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image2ascii.dir/build.make CMakeFiles/image2ascii.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image2ascii.dir/build.make CMakeFiles/image2ascii.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... output"
+	@echo "... image2ascii"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
