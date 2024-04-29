@@ -22,8 +22,14 @@ int calculateAvg(Mat img,int row,int col,int scale){
     return sum/pixelCnt;
 }
     
-int main(){
-    Mat img=imread("/Users/vishalghige/Desktop/#C0DE/ASCII_Img/assets/pt3.jpeg");
+int main(int argc,char **argv){
+    if(argc!=2){
+        cout<<"Specify the image path...\n";
+        return EXIT_FAILURE;
+    }
+    string path="../";path+=argv[1];
+    
+    Mat img=imread(path);
     string ascii_level_70="$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
     string ascii_level_10="@%#*+=-:. ";
 
@@ -32,7 +38,7 @@ int main(){
 
     cvtColor(img,img,COLOR_BGR2GRAY);
 
-    int scale=2;
+    int scale=8;
 
     for(int i=0;i<img.rows;i+=scale){
         string text="";
@@ -44,9 +50,6 @@ int main(){
         output+=text+"\n";
     }
     cout<<output<<endl;
-
-    // imshow("eyantra",img);
-    // waitKey(0);
     
     return 0;
 }

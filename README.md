@@ -24,7 +24,7 @@ make
 
 3. Run the executable with the path to the input image:
 ```bash
-./image2ascii
+./image2ascii assets/pt3.jpeg
 ```
 ## Examples
 
@@ -42,3 +42,7 @@ This project requires the following dependencies:
 - C++ compiler
 - CMake
 - OpenCV
+
+```bash
+Make sure to replace `assets/pt3.jpeg` with the path to the input image if you're copying the README to your project.
+```
