@@ -23,7 +23,7 @@ int calculateAvg(Mat img,int row,int col,int scale){
 }
     
 int main(){
-    Mat img=imread("/Users/vishalghige/Desktop/#C0DE/ASCII_Img/assets/pt6.jpeg");
+    Mat img=imread("/Users/vishalghige/Desktop/#C0DE/ASCII_Img/assets/pt3.jpeg");
     string ascii_level_70="$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
     string ascii_level_10="@%#*+=-:. ";
 
