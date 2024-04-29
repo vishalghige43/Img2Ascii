@@ -1,0 +1,3 @@
+/Users/vishalghige/Desktop/#C0DE/ASCII_Img/build/CMakeFiles/output.dir
+/Users/vishalghige/Desktop/#C0DE/ASCII_Img/build/CMakeFiles/edit_cache.dir
+/Users/vishalghige/Desktop/#C0DE/ASCII_Img/build/CMakeFiles/rebuild_cache.dir
